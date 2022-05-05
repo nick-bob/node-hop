@@ -6,10 +6,9 @@ Simple program to hop into an ec2 instance by `tag:Name`.
 
 ```
 cd src/
+pip3 install -r requirements.txt
 ./awsssh.py {{tag_name}}
 ```
-
-Optionally this script can be added into your $PATH, then executed anywhere.
 
 ## Unit testing
 
